@@ -12,6 +12,7 @@ public abstract class BankEmployee {
 	}
 	
 	public int getId() {
+		System.out.println("Get emp details");
 		return id;
 	}
 	
