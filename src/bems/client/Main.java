@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         BankEmployeeService service = new BankEmployeeServiceImpl();
+        System.err.println("ADDING A NEW CHANGE");
 
         while (true) {
             System.out.println("\n=== Bank Employee Management System ===");
@@ -24,6 +25,7 @@ public class Main {
             System.out.println("6. Sort Employees by Salary");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
+           
 
             int choice = scanner.nextInt();
             scanner.nextLine(); // consume newline
